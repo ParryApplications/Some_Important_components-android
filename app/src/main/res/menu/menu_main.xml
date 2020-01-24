@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_id"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="first"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/second_id"
+        android:title="second"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/third_id"
+        android:title="third"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fourth_id"
+        android:title="fourth"
+        app:showAsAction="never" />
+</menu>
